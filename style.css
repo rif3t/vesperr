@@ -1,0 +1,555 @@
+.nav-link:hover{
+    color: rgb(0, 191, 255) !important;
+}
+.navbar-brand{
+    margin-left: 10px;
+    font-size: 35px;
+    font-family: "Playwrite ES Deco", cursive;
+}
+.navbar-brand:hover{
+    color: blue !important;
+}
+.navbar{
+    margin-bottom: 30px;
+}
+.bbtn{
+    margin-left: 10px;
+}
+.sec-head{
+    font-weight: 300;
+}
+.f-head{
+    font-size: 40px;
+    font-family: "Playwrite NG Modern", cursive;
+}
+.bbtn1{
+    background-color: white;
+    color: blue;
+    width: 100px;
+    height: 35px;
+    border-radius: 40px;
+}
+.img-head{
+    box-shadow: 2px 0px 25px 0px rgb(0, 191, 255);
+    animation: hero 10s infinite;
+}
+@keyframes hero {
+    0%{transform: translatey(0px);}
+    25%{transform: translatey(10px);}
+    50%{transform: translatey(-10px);}
+
+    
+}
+.logo{
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.logo1{
+    opacity: .3;
+}
+.logo1:hover{
+    opacity: 1;
+    
+}
+.logo2{
+    opacity: .3;
+}
+.logo2:hover{
+    opacity: 1;
+}
+.logo3{
+    opacity: .3;
+}
+.logo3:hover{
+    opacity: 1;
+}
+.logo4{
+    opacity: .3;
+}
+.logo4:hover{
+    opacity: 1;
+}
+.logo5{
+    opacity: .3;
+}
+.logo5:hover{
+    opacity: 1;
+}
+
+.logo6{
+    opacity: .3;
+}
+.logo6:hover{
+    opacity: 1;
+}
+.about{
+    font-size: 40px;
+    position: relative;
+    font-family: "Playwrite US Trad", cursive;
+}
+.span1{
+    width: 80px;
+    height: 2px;
+    background-color: rgb(0, 191, 255);
+    position: absolute;
+    top: 35px;
+    right: 600px;
+}
+.span2{
+    width: 80px;
+    height: 2px;
+    background-color: rgb(0, 191, 255);
+    position: absolute;
+    top: 35px;
+    left: 560px;
+}
+.a2{
+    font-weight:bold;
+}
+.a3{
+    font-weight: bolder;
+    font-size: 20px;
+}
+.ca2{
+    color: rgb(47, 195, 244);
+}
+.fa-heart{
+    color: red;
+
+}
+.fa-skull{
+    color: crimson;
+}
+.ca1{
+    border: 0px;
+}
+.lorem{
+    color: blue;
+}
+.bbtn2{
+    border-radius: 40px;
+    width: 130px;
+}
+.img2{
+margin-left: 50px;
+}
+.t1{
+    margin-left: 50px;
+    margin-top: 80px;
+}
+.l1{
+    margin-top: 50px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.i1{
+    color: rgb(0, 131, 175);
+    font-size: 25px;
+}
+.serv{
+    margin-top: 50px;
+    font-size: 40px;
+    font-family: "Playwrite US Trad", cursive;
+    margin-bottom: 50px;
+}
+.servicon{
+    background-color: blue;
+    color: white;
+    padding-left: 12px;
+    padding-top: 8px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 30px;
+}
+.servsubt{
+    font-weight: 500;
+}
+.servca{
+    transition: 1s;
+    opacity: .5;
+}
+.servca:hover{
+    background-color: rgb(6, 6, 121);
+    color: white !important;
+    opacity: 1;
+
+}
+.servicon1{
+    background-color: blue;
+    color: white;
+    padding-left: 8.5px;
+    padding-top: 8px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 30px;
+}
+.servicon2{
+    background-color: blue;
+    color: white;
+    padding-left: 6px;
+    padding-top: 8px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 30px;
+}
+.portf{
+    margin-top: 50px;
+    font-size: 40px;
+    font-family: "Playwrite US Trad", cursive;
+    margin-bottom: 40px;
+}
+.cont{
+ width: 1150px;
+    background-color: aliceblue;
+    box-shadow: 4px 2px 10px 2px lightblue;
+}
+.all{
+    color: blue;
+    font-size: 20px;
+}
+.all1{font-size: 20px;}
+.lol{
+    margin-bottom: 20px;
+    margin-right: 35px;
+}
+.testi{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 40px;
+    font-family: "Playwrite US Trad", cursive;
+}
+
+
+.jack{
+    position: absolute;
+    right: -40px;
+    top: 8px;
+    border-radius: 50%;
+    box-shadow: 3px 2px 10px 1px black;
+    
+}
+.lol1{
+    box-shadow: 4px 2px 10px 2px black;
+}
+
+.opinon{
+    width: 400px !important;
+    /* height: 150px !important; */
+    border: 0px;
+    box-shadow: 4px 2px 10px 2px rgb(162, 162, 162);
+    background-color: rgb(2, 255, 255);
+position: relative;
+margin-bottom: 5px;
+animation: ohhh 7s infinite;
+}
+@keyframes ohhh {
+    0%{background-color: rgb(2, 255, 255);}
+    50%{background-color: white;}
+    100%{background-color: rgb(2, 255, 255);}
+    
+}
+
+
+.opinon1{
+    width: 400px !important;
+    /* height: 150px !important; */
+    border: 0px;
+    box-shadow: 4px 2px 10px 2px rgb(162, 162, 162);
+position: relative;
+margin-bottom: 5px;
+animation: ohhh1 7s infinite;
+}
+@keyframes ohhh1 {
+    0%{background-color: white;}
+    50%{background-color: rgb(2, 255, 255);}
+    100%{background-color: white;}
+    
+}
+.star{
+    color: gold;
+}
+.dot{
+    margin-top: 50px;
+    width: 2px;
+    height: 20px;
+    border-radius: 100%;
+    border: 1px solid rgb(9, 93, 93);
+    margin-left: 10px;
+}
+.dot1{
+    background-color:rgb(2, 255, 255);
+}
+.price{
+    margin-right: 20px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-family: "Playwrite US Trad", cursive;
+
+}
+.kk{
+    margin-bottom: 40px;
+}
+.mo{
+    margin-top: 10px;
+    color: rgb(6, 190, 252);
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.ca-tit{
+    margin-top: 20px;
+}
+.priceing{
+    box-shadow: 4px 2px 10px 2px rgb(162, 162, 162);
+}
+.pbbtn{
+    margin-top: 20px;
+    margin-left: 35%;
+}
+.ppbbtn{
+    background-color: rgb(103, 103, 254);
+    color: white;
+}
+.ppbbtn:hover{
+    color: blue;
+    background-color: white;
+}
+.ow{
+    transition: 8s;
+}
+.ow:hover{
+    z-index: 1;
+}
+.log{
+    margin-top: 40px;
+    font-size: 40px;
+    font-family: "Playwrite US Trad", cursive;
+    margin-bottom: 40px;
+}
+.u1{
+    font-size: 200px;
+    color: rgb(0, 81, 255);
+    margin-right: 30px;
+}
+.login1{
+    background-color: white;
+    border: 0px;
+    margin-left: 13px;
+}
+.login1:hover{
+    background-color: white ;
+}
+.loc{
+    font-size: 25px;
+font-weight: 700;
+
+}
+.loc2{
+    color: rgb(0, 191, 255);
+}
+.ll1{
+    margin-left: 40px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.letty{
+    margin-left: 20%;
+}
+.lteam{
+    margin-top: 50px;
+}
+.car1{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Playwrite US Trad", cursive;
+}
+.team2{
+    margin-top: 50px;
+    font-family: "Playwrite US Trad", cursive;
+
+    font-size: 40px;
+}
+
+.pho1{
+    position: relative;
+    overflow: hidden;
+    width: 350px;
+    /* transition-duration: 10s; */
+}
+.brand{
+    position: absolute;
+    /* top: 4700px; */
+    left: 30%;
+
+
+}
+
+.pho1:hover .brand{
+    top: 68%;
+}
+
+.pho2{
+    position: relative;
+    overflow: hidden;
+    width: 350px;
+    /* transition-duration: 10s; */
+}
+.brand1{
+    position: absolute;
+    /* top: 4700px; */
+    left: 30%;
+
+
+}
+
+.pho2:hover .brand1{
+    top: 68%;
+}
+
+
+
+.pho3{
+    position: relative;
+    overflow: hidden;
+    width: 350px;
+    /* transition-duration: 10s; */
+}
+.brand2{
+    position: absolute;
+    /* top: 4700px; */
+    left: 30%;
+
+
+}
+
+.pho3:hover .brand2{
+    top: 68%;
+}
+
+.pho4{
+    position: relative;
+    overflow: hidden;
+    width: 350px;
+    /* transition-duration: 10s; */
+}
+.brand3{
+    position: absolute;
+    /* top: 4700px; */
+    left: 30%;
+
+
+}
+
+.pho4:hover .brand3{
+    top: 68%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.icon-container{
+    margin-left: 60px;
+}
+.icon1-container{
+    margin-top: -20px;
+}
+
+.icon-container {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    
+}
+
+.icon-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #f09433;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    border-radius: 20%;
+    transition: transform 0.5s;
+}
+
+.icon-container:hover::before {
+    transform: scale(1.1) translateX(-10px) translateY(-10px);
+}
+
+.icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height:20px;
+    background: url('https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png') no-repeat center center;
+    background-size: contain;
+}
+
+.icon-container:hover .icon {
+    animation: icy-move 0.5s infinite alternate;
+}
+
+@keyframes icy-move {
+    0% { transform: translate(-50%, -50%) translateX(0) translateY(0); }
+    100% { transform: translate(-50%, -50%) translateX(5px) translateY(5px); }
+}
+
+
+.icon1-container {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon1-container a {
+    text-decoration: none;
+    color: #1DA1F2;
+    font-size: 40px;
+    transition: transform 0.3s, color 0.3s;
+}
+.icon1-container a:hover {
+    transform: scale(1.2);
+    color: #0d95e8;
+}
+.icon1-container a::before {
+    content: '\f099';
+    font-family: 'FontAwesome';
+}
+@keyframes hover-move {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+.icon1-container a:hover {
+    animation: hover-move 0.5s ease-in-out infinite;
+}
+
+.hh1{
+    width: 500px;
+    height: 200px;
+    /* background-color: antiquewhite; */
+}
