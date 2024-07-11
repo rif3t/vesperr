@@ -557,6 +557,9 @@ font-weight: 700;
     height: 200px;
     /* background-color: antiquewhite; */
 }
+.team{
+    margin-left: 500px;
+}
 
 
 
@@ -585,9 +588,9 @@ font-weight: 700;
     #price{
         padding-left: 55px;
     }
-    .team{
-        padding-left: 50px;
-    }
+    /* .team{
+        padding-left: 500px;
+    } */
     #lalal{
         padding-right:50px ;
     }
@@ -607,4 +610,10 @@ font-weight: 700;
         padding-right:50px ;
     }
     
+  }
+
+  @media only screen and (min-width: 1032px) {
+    body{
+        margin-left: 40px;
+    }
   }
