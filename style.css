@@ -138,7 +138,7 @@
 margin-left: 50px;
 }
 .t1{
-    margin-left: 50px;
+    /* margin-left: 50px; */
     margin-top: 80px;
 }
 .l1{
@@ -229,7 +229,7 @@ margin-left: 50px;
 
 .jack{
     position: absolute;
-    right: -40px;
+    right:10px;
     top: 8px;
     border-radius: 50%;
     box-shadow: 3px 2px 10px 1px black;
@@ -287,12 +287,10 @@ animation: ohhh1 7s infinite;
     background-color:rgb(2, 255, 255);
 }
 .ddd1{
-    margin-left: 10px;
+    /* margin-left: 10px; */
 }
 .price{
-    margin-right: 20px;
-    margin-top: 40px;
-    margin-bottom: 10px;
+ 
     font-size: 40px;
     font-family: "Playwrite US Trad", cursive;
 
@@ -569,82 +567,44 @@ font-weight: 700;
           100% { transform: translate(-50%, -50%) translateX(5px) translateY(5px);}
 }
 
-@media only screen and (min-width: 780px) {
-    .testi{
-        margin-right: 25px;
+@media only screen and (max-width: 322px) {
+    .hoh{
+        /* margin-left: 1%; */
     }
-    .ahhh{
-        margin-left: 30px;
+    .iii{
+        padding-left: 115px;
     }
-}
-@media only screen and (min-width: 430px) {
-    .pop{
-        margin-right: 100px;
+    .hoh{
+        padding-left: -5px;
     }
-    .letty{
-        margin-right: 20px;
+  }
+  @media (min-width:376px) and (max-width: 426px) {
+    .iii{
+        padding-left: 165px;
     }
-
-}
-
-
-
-@media only screen and (max-width: 428px) {
+    #price{
+        padding-left: 55px;
+    }
     .team{
-        /* width: 10px; */
-        /* margin-left: 20px; */
-        padding-left: 80px;
+        padding-left: 50px;
     }
-    .uikit{
-        padding-left:70px ;
+    #lalal{
+        padding-right:50px ;
     }
-    .uwu{
-        padding-left: 70px;
-    }
-    .lala{
-        padding-left: 70px;
-    }
+    
+  }
+  @media (min-width:322px) and (max-width: 377px) {
     .iii{
         padding-left: 150px;
     }
-    .jack{
-        right: 10px;
+    #price{
+        padding-left: 30px;
     }
-  }
-
-  @media only screen and (max-width: 321px) {
     .team{
-        /* width: 10px; */
-        /* margin-left: 20px; */
-        padding-left: 0px;
+        padding-left: 20px;
     }
-    .uikit{
-        padding-left:12px ;
+    #lalal{
+        padding-right:50px ;
     }
-    .uwu{
-        padding-left: 12px;
-    }
-    .lala{
-        padding-left: 12px;
-    }
-    .ahhh{
-        /* width: 550px; */
     
-
-    
-    }
-    .letty{
-        margin-right: 50px;
-    }
-    .jack{
-        /* right: 80px; */
-    }
-    .ohhh{
-        width: 500px !important;
-        border: 0px;
-    }
-    .iii{
-        /* margin-right: 80px; */
-        margin-left: -40px;
-    }
   }
