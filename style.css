@@ -1,36 +1,11 @@
-.nav-link:hover{
-    color: rgb(0, 191, 255) !important;
-}
-.navbar-brand{
-    margin-left: 10px;
-    font-size: 35px;
-    font-family: "Playwrite ES Deco", cursive;
-}
-.navbar-brand:hover{
-    color: blue !important;
-}
-.navbar{
-    margin-bottom: 30px;
-    /* position: fixed;
-    top: 0; */
-}
-.bbtn{
-    margin-left: 10px;
-}
-.sec-head{
-    font-weight: 300;
-}
 .f-head{
     font-size: 40px;
     font-family: "Playwrite NG Modern", cursive;
 }
-.bbtn1{
-    background-color: white;
-    color: blue;
-    width: 100px;
-    height: 35px;
-    border-radius: 40px;
+.sec-head{
+    font-weight: 300;
 }
+
 .img-head{
     box-shadow: 2px 0px 25px 0px rgb(0, 191, 255);
     animation: hero 10s infinite;
@@ -43,11 +18,8 @@
 
     
 }
-.logo{
-    margin-top: 60px;
-    margin-bottom: 40px;
-    margin-left: 30px;
-}
+
+
 .logo1{
     opacity: .3;
 }
@@ -86,88 +58,75 @@
 .logo6:hover{
     opacity: 1;
 }
+
+@media only screen and (max-width: 426px) {
+    #clients{
+        padding-left: 36%;
+
+    }
+    .hoho{
+        padding-left: 40%;
+    }
+
+}
+.ow:hover{
+    z-index: 1;
+}
+
+.nav-link:hover{
+    color: rgb(0, 191, 255) !important;
+}
+.navbar-brand{
+    margin-left: 10px;
+    font-size: 35px;
+    font-family: "Playwrite ES Deco", cursive;
+}
+.navbar-brand:hover{
+    color: blue !important;
+}
+.navbar{
+    margin-bottom: 30px;
+    /* position: fixed;
+    top: 0; */
+}
 .about{
     font-size: 40px;
     position: relative;
     font-family: "Playwrite US Trad", cursive;
 }
-.span1{
-    width: 80px;
-    height: 2px;
-    background-color: rgb(0, 191, 255);
-    position: absolute;
-    top: 35px;
-    right: 600px;
-}
-.span2{
-    width: 80px;
-    height: 2px;
-    background-color: rgb(0, 191, 255);
-    position: absolute;
-    top: 35px;
-    left: 560px;
-}
-.a2{
-    font-weight:bold;
-}
 .a3{
     font-weight: bolder;
     font-size: 20px;
 }
+.lorem{
+    color: blue;
+}
+.ca1{
+    border: 0px !important;
+}
 .ca2{
-    color: rgb(47, 195, 244);
+    color: rgb(47, 195, 244) !important;
 }
 .fa-heart{
     color: red;
 
 }
-.fa-skull{
-    color: crimson;
-}
-.ca1{
-    border: 0px;
-}
-.lorem{
-    color: blue;
-}
-.bbtn2{
-    border-radius: 40px;
-    width: 130px;
-}
-.img2{
-margin-left: 50px;
-}
-.t1{
-    /* margin-left: 50px; */
-    margin-top: 80px;
-}
 .l1{
-    margin-top: 50px;
+    padding-top: 50px;
     font-size: large;
     font-weight: bold;
 }
-
 .i1{
     color: rgb(0, 131, 175);
     font-size: 25px;
+}
+.hah{
+    filter: drop-shadow(2px 2px 20px rgb(0, 191, 255) );
 }
 .serv{
     font-size: 40px;
     
     font-family: "Playwrite US Trad", cursive;
-}
-.servicon{
-    background-color: blue;
-    color: white;
-    padding-left: 12px;
-    padding-top: 8px;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    font-size: 30px;
-}
-.servsubt{
-    font-weight: 500;
 }
 .servca{
     transition: 1s;
@@ -178,6 +137,16 @@ margin-left: 50px;
     color: white !important;
     opacity: 1;
 
+}
+.servicon{
+    background-color: blue;
+    color: white;
+    padding-left: 12px;
+    padding-top: 8px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 30px;
 }
 .servicon1{
     background-color: blue;
@@ -210,35 +179,74 @@ margin-left: 50px;
     background-color: aliceblue;
     box-shadow: 4px 2px 10px 2px lightblue;
 }
-.all{
-    color: blue;
-   
+.lol1{
+    box-shadow: 4px 2px 10px 2px black;
 }
-.all1{font-size: 20px;}
+.image-container {
+    position: relative;
+    /* width: 300px;
+    height: 200px; */
+    overflow: hidden;
+}
 
-.lol{
- 
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
 }
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    transform: translateY(20px);
+    opacity: 0;
+}
+
+.image-container:hover .image {
+    transform: scale(1.1);
+}
+
+.image-container:hover .overlay {
+    opacity: 1;
+}
+
+.image-container:hover .text {
+    transform: translateY(0);
+    opacity: 1;
+}
+
 .testi{
-    margin-top: 50px;
-    margin-bottom: 50px;
+  
     font-size: 40px;
     font-family: "Playwrite US Trad", cursive;
 }
 
-
 .jack{
     position: absolute;
-    right:10px;
+    right:50px;
     top: 8px;
     border-radius: 50%;
     box-shadow: 3px 2px 10px 1px black;
     
 }
-.lol1{
-    box-shadow: 4px 2px 10px 2px black;
-}
-
 .opinon{
     width: 400px !important;
     /* height: 150px !important; */
@@ -255,7 +263,6 @@ animation: ohhh 7s infinite;
     100%{background-color: rgb(2, 255, 255);}
     
 }
-
 
 .opinon1{
     width: 400px !important;
@@ -275,41 +282,17 @@ animation: ohhh1 7s infinite;
 .star{
     color: gold;
 }
-.dot{
-    margin-top: 50px;
-    width: 2px;
-    height: 20px;
-    border-radius: 100%;
-    border: 1px solid rgb(9, 93, 93);
-    margin-left: 10px;
-}
-.dot1{
-    background-color:rgb(2, 255, 255);
-}
-.ddd1{
-    /* margin-left: 10px; */
-}
+
 .price{
  
     font-size: 40px;
     font-family: "Playwrite US Trad", cursive;
 
 }
-.kk{
-    margin-bottom: 40px;
-}
-.mo{
-    margin-top: 10px;
-    color: rgb(6, 190, 252);
-    font-size: 25px;
-    margin-bottom: 10px;
-}
-.ca-tit{
-    margin-top: 20px;
-}
 .priceing{
     box-shadow: 4px 2px 10px 2px rgb(162, 162, 162);
 }
+
 .pbbtn{
     margin-top: 20px;
     margin-left: 35%;
@@ -322,30 +305,14 @@ animation: ohhh1 7s infinite;
     color: blue;
     background-color: white;
 }
-.ow{
-    transition: 8s;
+.ca-tit{
+    margin-top: 20px;
 }
-.ow:hover{
-    z-index: 1;
-}
-.log{
-    margin-top: 40px;
-    font-size: 40px;
-    font-family: "Playwrite US Trad", cursive;
-    margin-bottom: 40px;
-}
-.u1{
-    font-size: 200px;
-    color: rgb(0, 81, 255);
-    margin-right: 30px;
-}
-.login1{
-    background-color: white;
-    border: 0px;
-    margin-left: 13px;
-}
-.login1:hover{
-    background-color: white ;
+.mo{
+    margin-top: 10px;
+    color: rgb(6, 190, 252);
+    font-size: 25px;
+    margin-bottom: 10px;
 }
 .loc{
     font-size: 25px;
@@ -355,265 +322,61 @@ font-weight: 700;
 .loc2{
     color: rgb(0, 191, 255);
 }
-.ll1{
-    margin-left: 40px;
-    font-size: 15px;
-    font-weight: 500;
+.login1{
+    background-color: white !important;
+    border: 0px !important;
+
 }
-.letty{
-    margin-left: 15%;
+.login1:hover{
+    background-color: white ;
 }
-.lteam{
-    margin-top: 50px;
+.u1{
+    font-size: 200px;
+    color: rgb(0, 81, 255);
+  
 }
+#login{
+    font-size: 40px;
+    font-family: "Playwrite US Trad", cursive;
+}
+
+.team2{
+   
+    font-family: "Playwrite US Trad", cursive;
+
+    font-size: 40px;
+}
+
 .car1{
     font-size: 20px;
     font-weight: bold;
     font-family: "Playwrite US Trad", cursive;
 }
-.team2{
-    margin-top: 50px;
-    font-family: "Playwrite US Trad", cursive;
 
-    font-size: 40px;
-}
-
-.pho1{
-    position: relative;
-    overflow: hidden;
-    width: 350px;
-    /* transition-duration: 10s; */
-}
-.brand{
-    position: absolute;
-    /* top: 4700px; */
-    left: 30%;
-
-
-}
-
-.pho1:hover .brand{
-    top: 68%;
-}
-
-.pho2{
-    position: relative;
-    overflow: hidden;
-    width: 350px;
-    /* transition-duration: 10s; */
-}
-.brand1{
-    position: absolute;
-    /* top: 4700px; */
-    left: 30%;
-
-
-}
-
-.pho2:hover .brand1{
-    top: 68%;
-}
-
-
-
-.pho3{
-    position: relative;
-    overflow: hidden;
-    width: 350px;
-    /* transition-duration: 10s; */
-}
-.brand2{
-    position: absolute;
-    /* top: 4700px; */
-    left: 30%;
-
-
-}
-
-.pho3:hover .brand2{
-    top: 68%;
-}
-
-.pho4{
-    position: relative;
-    overflow: hidden;
-    width: 350px;
-    /* transition-duration: 10s; */
-}
-.brand3{
-    position: absolute;
-    /* top: 4700px; */
-    left: 30%;
-
-
-}
-
-.pho4:hover .brand3{
-    top: 68%;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.icon-container{
-    margin-left: 60px;
-}
-.icon1-container{
-    margin-top: -20px;
-}
-
-.icon-container {
-    position: relative;
-    width: 30px;
-    height: 30px;
-    
-}
-
-.icon-container::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #f09433;
-    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-    border-radius: 20%;
-    transition: transform 0.5s;
-}
-
-.icon-container:hover::before {
-    transform: scale(1.1) translateX(-10px) translateY(-10px);
-}
-
-.icon {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 20px;
-    height:20px;
-    background: url('https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png') no-repeat center center;
-    background-size: contain;
-}
-
-.icon-container:hover .icon {
-    animation: icy-move 0.5s infinite alternate;
-}
-
-@keyframes icy-move {
-    0% { transform: translate(-50%, -50%) translateX(0) translateY(0); }
-    100% { transform: translate(-50%, -50%) translateX(5px) translateY(5px); }
-}
-
-
-.icon1-container {
-    position: relative;
-    width: 10px;
-    height: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.icon1-container a {
-    text-decoration: none;
-    color: #1DA1F2;
-    font-size: 40px;
-    transition: transform 0.3s, color 0.3s;
-}
-.icon1-container a:hover {
-    transform: scale(1.2);
-    color: #0d95e8;
-}
-.icon1-container a::before {
-    content: '\f099';
-    font-family: 'FontAwesome';
-}
-@keyframes hover-move {
-    0%, 100% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(-10px);
-    }
-}
-.icon1-container a:hover {
-    animation: hover-move 0.5s ease-in-out infinite;
-}
-
-.hh1{
-    width: 500px;
-    height: 200px;
-    /* background-color: antiquewhite; */
-}
-.team{
-    margin-left: 500px;
-}
-
-
-
-.icon-container:hover .icon {
-     animation: icy-move 0.5s infinite alternate;}
-      @keyframes icy-move {
-         0% {transform: translate(-50%, -50%) translateX(0) translateY(0); }
-          100% { transform: translate(-50%, -50%) translateX(5px) translateY(5px);}
-}
-
-@media only screen and (max-width: 322px) {
-    .hoh{
-        /* margin-left: 1%; */
-    }
-    .iii{
-        padding-left: 115px;
-    }
-    .hoh{
-        padding-left: -5px;
-    }
-  }
-  @media (min-width:376px) and (max-width: 426px) {
-    .iii{
-        padding-left: 165px;
-    }
+@media (min-width:374px) and (max-width: 424px) {
     #price{
-        padding-left: 55px;
+        padding-left: 10%;
     }
-    /* .team{
-        padding-left: 500px;
-    } */
-    #lalal{
-        padding-right:50px ;
+    .hoho{
+        padding-left: 8%;
     }
-    
-  }
-  @media (min-width:322px) and (max-width: 377px) {
-    .iii{
-        padding-left: 150px;
-    }
-    #price{
-        padding-left: 30px;
-    }
-    .team{
-        padding-left: 20px;
-    }
-    #lalal{
-        padding-right:50px ;
-    }
-    
-  }
+}
+.team5{
+    border: 0px !important;
+}
 
-  @media only screen and (min-width: 1032px) {
-    body{
-        margin-left: 40px;
+@media (min-width:425px) and (max-width: 590px) {
+    #price{
+        padding-left: 18%;
     }
-  }
+}
+@media (min-width:767px) and (max-width: 1000px) {
+    #price{
+        padding-right: 18%;
+    }
+}
+.boton{
+    width: 110px;
+   
+    border-radius: 40px !important;
+}
