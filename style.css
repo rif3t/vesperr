@@ -380,3 +380,9 @@ font-weight: 700;
    
     border-radius: 40px !important;
 }
+@media (min-width:200px) and (max-width: 374px) {
+    #price{
+        padding-left: 6%;
+    }
+
+}
